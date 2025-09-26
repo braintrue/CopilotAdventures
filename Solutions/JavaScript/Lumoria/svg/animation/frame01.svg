@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0a1020"/>
+  <circle cx="80" cy="110" r="36" fill="gold" stroke="#fff59d" stroke-width="3"/>
+  <text x="80" y="64" fill="white" font-size="18" text-anchor="middle">Lumorian Sun</text>
+  <circle cx="168" cy="125" r="58.548" fill="#8888ff" stroke="#fff" stroke-width="2"/>
+  <text x="168" y="201.548" fill="white" font-size="15" text-anchor="middle">Mercuria</text>
+  <circle cx="234" cy="129.86257929025993" r="145.248" fill="#88ab21" stroke="#fff" stroke-width="2"/>
+  <text x="234" y="293.1105792902599" fill="white" font-size="15" text-anchor="middle">Venusia</text>
+  <ellipse cx="70.75200000000001" cy="129.86257929025993" rx="12" ry="145.248" fill="#222" opacity="0.5"/>
+  <circle cx="300" cy="133.93330022421074" r="152.904" fill="#88cd43" stroke="#fff" stroke-width="2"/>
+  <text x="300" y="304.8373002242107" fill="white" font-size="15" text-anchor="middle">Earthia</text>
+  <ellipse cx="129.096" cy="133.93330022421074" rx="12" ry="152.904" fill="#222" opacity="0.5"/>
+  <circle cx="410" cy="137.04987600411857" r="81.348" fill="#88ef65" stroke="#fff" stroke-width="2"/>
+  <text x="410" y="236.3978760041186" fill="white" font-size="15" text-anchor="middle">Marsia</text>
+  <ellipse cx="310.652" cy="137.04987600411857" rx="12" ry="81.348" fill="#222" opacity="0.5"/>
+</svg>

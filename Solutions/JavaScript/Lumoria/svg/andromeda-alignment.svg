@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0a1020"/>
+  <circle cx="80" cy="130" r="36" fill="gold" stroke="#fff59d" stroke-width="3"/>
+  <text x="80" y="84" fill="white" font-size="18" text-anchor="middle">Lumorian Sun</text>
+  <circle cx="146" cy="130" r="72" fill="#8888ff" stroke="#fff" stroke-width="2"/>
+  <text x="146" y="220" fill="white" font-size="15" text-anchor="middle">Zyra</text>
+  <circle cx="256" cy="130" r="108" fill="#88ab21" stroke="#fff" stroke-width="2"/>
+  <text x="256" y="256" fill="white" font-size="15" text-anchor="middle">Tirion</text>
+  <circle cx="344" cy="130" r="180" fill="#88cd43" stroke="#fff" stroke-width="2"/>
+  <text x="344" y="328" fill="white" font-size="15" text-anchor="middle">Vex</text>
+  <circle cx="520" cy="130" r="132" fill="#88ef65" stroke="#fff" stroke-width="2"/>
+  <text x="520" y="280" fill="white" font-size="15" text-anchor="middle">Orion</text>
+</svg>

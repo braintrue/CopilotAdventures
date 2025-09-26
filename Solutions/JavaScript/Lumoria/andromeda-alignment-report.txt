@@ -1,0 +1,25 @@
+Celestial Alignment Report for Andromeda
+==========================================
+Planet: Zyra
+  Distance from star: 0.3 AU
+  Diameter: 6000 km
+  Shadow Type: Full
+
+Planet: Tirion
+  Distance from star: 0.8 AU
+  Diameter: 9000 km
+  Shadow Type: Partial
+  Shadowed by: Zyra
+
+Planet: Vex
+  Distance from star: 1.2 AU
+  Diameter: 15000 km
+  Shadow Type: None (Multiple Shadows)
+  Shadowed by: Zyra, Tirion
+
+Planet: Orion
+  Distance from star: 2 AU
+  Diameter: 11000 km
+  Shadow Type: None (Multiple Shadows)
+  Shadowed by: Zyra, Tirion, Vex
+

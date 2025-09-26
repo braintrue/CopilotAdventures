@@ -1,0 +1,25 @@
+Celestial Alignment Report for Lumoria
+==========================================
+Planet: Mercuria
+  Distance from star: 0.4 AU
+  Diameter: 4879 km
+  Shadow Type: Full
+
+Planet: Venusia
+  Distance from star: 0.7 AU
+  Diameter: 12104 km
+  Shadow Type: None
+  Shadowed by: Mercuria
+
+Planet: Earthia
+  Distance from star: 1 AU
+  Diameter: 12742 km
+  Shadow Type: None (Multiple Shadows)
+  Shadowed by: Mercuria, Venusia
+
+Planet: Marsia
+  Distance from star: 1.5 AU
+  Diameter: 6779 km
+  Shadow Type: None (Multiple Shadows)
+  Shadowed by: Mercuria, Venusia, Earthia
+
