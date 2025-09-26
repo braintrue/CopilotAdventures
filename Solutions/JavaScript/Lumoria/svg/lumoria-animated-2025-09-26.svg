@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sunGradient">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF4500;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="planetGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#6B93D6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E4057;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0B1426" />
+  
+  <!-- Animated stars -->
+  <circle cx="504.6677524647794" cy="111.74437856383878" r="1.1485546819690824" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5398536546926103s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="679.825533227624" cy="243.78891644373155" r="1.2576821874621071" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.792512198973601s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="10.816666258651964" cy="351.1911143518505" r="2.109084411973841" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.9725617841798817s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1063.2127088245848" cy="369.415648083646" r="2.344980927725528" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.021317723278263s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1158.6827226693263" cy="9.263403321822494" r="0.9340512205843257" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.613256716803048s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="235.30333717540782" cy="238.75084581395615" r="2.0368050171821444" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.525390186373665s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="593.1668171177633" cy="23.969762964856756" r="1.3602307138565841" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5260521066271897s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="989.007505781293" cy="171.57700430863548" r="1.7990627525877825" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.9729229414286964s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="657.6807273495161" cy="312.4850220807791" r="1.4346495234097647" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.928141935037994s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1129.1379682424042" cy="37.622836450387084" r="0.8774337402795576" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.994516912491648s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="734.8453082463577" cy="215.16951308875935" r="1.422993752485683" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.754243164215017s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="427.779260863728" cy="285.82000856529135" r="0.6540143472101434" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.846021983893788s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="381.58364903811054" cy="393.1426947546148" r="2.1932655445099334" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.390113714733115s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="303.4809671065094" cy="157.33594992629367" r="2.4130112685467218" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.599451054763155s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="227.10400559544084" cy="376.58934703073993" r="2.101570141002166" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.274475158295284s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="895.8095163842617" cy="114.43957710487007" r="2.244853535149621" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.389591586097968s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="170.3852449939365" cy="232.80312927537344" r="0.6941606183431999" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5061649034022713s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="159.44095658615325" cy="115.50270334791853" r="1.4432177723611712" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.535708872407676s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="786.4056626997094" cy="197.08194760936556" r="2.3062332261729153" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2818320409262567s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="601.8158193850817" cy="110.74370715063625" r="1.3081397134316335" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.1393755401282775s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="870.5963240558253" cy="194.24307111601894" r="2.053217652389646" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.961396673002719s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="164.65603337945583" cy="38.60796822787318" r="2.213134736586876" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.0462405458677186s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="289.97493974614423" cy="207.23041896387082" r="0.5879577866242194" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.9010528966680704s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="155.26979438553258" cy="369.95765862771475" r="2.42793851635644" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.53218403750556s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="79.80927219411012" cy="260.3366105927582" r="2.380771464808046" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.755489980703607s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="698.981657864014" cy="167.36552339125117" r="1.9970410481324827" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.057269745106259s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="945.857684335071" cy="213.30334053535412" r="1.3328371456069408" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.6959734616953552s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="55.54251938778201" cy="241.70625992966856" r="2.1735063263814705" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.606078423842379s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="649.5012523884418" cy="343.210689750863" r="1.879830093787454" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.554722047089512s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="227.94466283697236" cy="165.99013615421762" r="2.183555019923318" fill="#FFFFFF">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.302183439788257s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Sun -->
+  <circle cx="100" cy="200" r="40" fill="url(#sunGradient)" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" values="0 100 200;360 100 200" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <text x="100" y="260" text-anchor="middle" fill="#FFD700" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Lumoria Sun</text>
+  
+  <!-- Orbiting planets -->
+  <g>
+    <!-- Orbital path -->
+    <circle cx="100" cy="200" r="156.66666666666669" fill="none" stroke="#333333" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+    
+    <!-- Planet -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 100 200;360 100 200" dur="20s" repeatCount="indefinite"/>
+      <circle cx="256.6666666666667" cy="200" r="8.131666666666666" fill="url(#planetGradient)">
+        <!-- Brightness animation based on alignment -->
+        <animate attributeName="opacity" values="1;0.5;0.3;0.5;1" dur="20s" repeatCount="indefinite"/>
+      </circle>
+      <text x="256.6666666666667" y="225" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="10">Mercuria</text>
+    </g>
+  </g>
+  <g>
+    <!-- Orbital path -->
+    <circle cx="100" cy="200" r="236.66666666666666" fill="none" stroke="#333333" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+    
+    <!-- Planet -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="60 100 200;420 100 200" dur="26s" repeatCount="indefinite"/>
+      <circle cx="336.66666666666663" cy="200" r="20" fill="url(#planetGradient)">
+        <!-- Brightness animation based on alignment -->
+        <animate attributeName="opacity" values="1;0.5;0.3;0.5;1" dur="26s" repeatCount="indefinite"/>
+      </circle>
+      <text x="336.66666666666663" y="225" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="10">Venusia</text>
+    </g>
+  </g>
+  <g>
+    <!-- Orbital path -->
+    <circle cx="100" cy="200" r="316.66666666666663" fill="none" stroke="#333333" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+    
+    <!-- Planet -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="120 100 200;480 100 200" dur="32s" repeatCount="indefinite"/>
+      <circle cx="416.66666666666663" cy="200" r="20" fill="url(#planetGradient)">
+        <!-- Brightness animation based on alignment -->
+        <animate attributeName="opacity" values="1;0.5;0.3;0.5;1" dur="32s" repeatCount="indefinite"/>
+      </circle>
+      <text x="416.66666666666663" y="225" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="10">Earthia</text>
+    </g>
+  </g>
+  <g>
+    <!-- Orbital path -->
+    <circle cx="100" cy="200" r="450" fill="none" stroke="#333333" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+    
+    <!-- Planet -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="180 100 200;540 100 200" dur="38s" repeatCount="indefinite"/>
+      <circle cx="550" cy="200" r="11.298333333333334" fill="url(#planetGradient)">
+        <!-- Brightness animation based on alignment -->
+        <animate attributeName="opacity" values="1;0.5;0.3;0.5;1" dur="38s" repeatCount="indefinite"/>
+      </circle>
+      <text x="550" y="225" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="10">Marsia</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Lumoria Animated Alignment</text>
+  <text x="600" y="50" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="14">Dynamic Shadow Effects</text>
+  
+  <!-- Animation controls indicator -->
+  <text x="1180" y="380" text-anchor="end" fill="#666666" font-family="Arial, sans-serif" font-size="12">Animation: 20s cycle</text>
+  
+</svg>
