@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sunGradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF4500;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="mercuriaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#8C7853;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A5A5A;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="venusiaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#FFC649;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C42;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="earthiaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#6B93D6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4F7942;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E4057;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="marsiaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#CD5C5C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feMerge> 
+        <feMergeNode in="offsetblur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0B1426" />
+  
+  <!-- Stars background -->
+  <circle cx="1184.0917056184824" cy="206.73853229089366" r="1.7604431748521363" fill="#FFFFFF" opacity="0.5562563266702409"/>
+  <circle cx="306.83892786829745" cy="228.5097899460464" r="0.5686280387556097" fill="#FFFFFF" opacity="0.6573001893724927"/>
+  <circle cx="192.4834301083279" cy="296.81959276827234" r="1.966687961812133" fill="#FFFFFF" opacity="0.6927449807163294"/>
+  <circle cx="1100.545806912895" cy="154.57253857221937" r="1.606618886350243" fill="#FFFFFF" opacity="0.6087535312486323"/>
+  <circle cx="273.27678788901" cy="372.9522388790267" r="1.9407158909233764" fill="#FFFFFF" opacity="0.39218544201995587"/>
+  <circle cx="113.11721050136345" cy="198.36708822551242" r="1.248764806436022" fill="#FFFFFF" opacity="0.7549218716810366"/>
+  <circle cx="800.6897832716232" cy="325.55192915680686" r="2.2941285662092143" fill="#FFFFFF" opacity="0.6125724501814661"/>
+  <circle cx="336.67304279741364" cy="228.44482993477425" r="2.379941736607015" fill="#FFFFFF" opacity="0.7877674931664849"/>
+  <circle cx="512.0516010756013" cy="53.33232638126493" r="2.3307696928227615" fill="#FFFFFF" opacity="0.41554313173756835"/>
+  <circle cx="407.263894548824" cy="372.1724503061979" r="0.7081188284257265" fill="#FFFFFF" opacity="0.4221965504944226"/>
+  <circle cx="913.8212617261997" cy="177.57434627056182" r="0.6836973771720545" fill="#FFFFFF" opacity="0.7654080222486759"/>
+  <circle cx="521.4997955667534" cy="23.49757340804315" r="1.5308534835719714" fill="#FFFFFF" opacity="0.38788878355013207"/>
+  <circle cx="266.74025452320205" cy="4.73404079668871" r="1.0431016668606508" fill="#FFFFFF" opacity="0.4005053545039099"/>
+  <circle cx="367.5765460990075" cy="4.842188461537056" r="2.239747423459918" fill="#FFFFFF" opacity="0.250378780704672"/>
+  <circle cx="4.470892822249972" cy="309.2027584155512" r="1.8701618709272956" fill="#FFFFFF" opacity="0.40463811605213923"/>
+  <circle cx="818.7907580535104" cy="128.40193472382114" r="1.9643150045864264" fill="#FFFFFF" opacity="0.4886610705821685"/>
+  <circle cx="587.5122954927095" cy="395.8270988139142" r="1.2992872952491594" fill="#FFFFFF" opacity="0.648573406250464"/>
+  <circle cx="638.9990875035768" cy="383.4893678694094" r="2.2638970883286436" fill="#FFFFFF" opacity="0.5136619988694197"/>
+  <circle cx="1027.371364107782" cy="25.747379481028165" r="2.073864938816119" fill="#FFFFFF" opacity="0.3319261503305144"/>
+  <circle cx="1171.1198478479942" cy="196.85352707580037" r="1.4753541880731484" fill="#FFFFFF" opacity="0.6843959428918144"/>
+  <circle cx="185.72627321375305" cy="138.71750316589333" r="1.5597925120932814" fill="#FFFFFF" opacity="0.9786011838460802"/>
+  <circle cx="790.4681448644004" cy="8.895937391712394" r="1.8950133618054918" fill="#FFFFFF" opacity="0.5514536646325761"/>
+  <circle cx="316.02509109854805" cy="239.15761300865555" r="1.5114923372030367" fill="#FFFFFF" opacity="0.4444040619806021"/>
+  <circle cx="1134.6156462567121" cy="48.38975123185403" r="2.3320820391703205" fill="#FFFFFF" opacity="0.5351141569283779"/>
+  <circle cx="1148.4912094184303" cy="14.748887588467152" r="1.8396688318193997" fill="#FFFFFF" opacity="0.274389430053428"/>
+  <circle cx="1197.0888040062428" cy="340.4797645785774" r="0.8694872947034114" fill="#FFFFFF" opacity="0.9791832983342896"/>
+  <circle cx="820.1205929217547" cy="174.05720814610214" r="1.1038624167965918" fill="#FFFFFF" opacity="0.45944294377016226"/>
+  <circle cx="742.9349185103586" cy="266.2672711673954" r="1.9672037510693334" fill="#FFFFFF" opacity="0.8985320859178996"/>
+  <circle cx="1022.31455947662" cy="212.01007406927798" r="1.5625416838694428" fill="#FFFFFF" opacity="0.3426217206018185"/>
+  <circle cx="799.7652139033092" cy="30.29630563521195" r="2.4668441435777493" fill="#FFFFFF" opacity="0.5144504115880457"/>
+  <circle cx="557.5471276523385" cy="139.83160463416607" r="1.6768562134118081" fill="#FFFFFF" opacity="0.925614181136259"/>
+  <circle cx="576.1950041052181" cy="134.52729075289858" r="0.8894598755681757" fill="#FFFFFF" opacity="0.38448041557813256"/>
+  <circle cx="1026.27040578556" cy="69.72006657861742" r="1.178446204146152" fill="#FFFFFF" opacity="0.25900253380094207"/>
+  <circle cx="967.359286402779" cy="240.49297670570445" r="0.7352162093714432" fill="#FFFFFF" opacity="0.406624581640258"/>
+  <circle cx="291.4437365696112" cy="124.36147698119049" r="1.939910123085013" fill="#FFFFFF" opacity="0.8936753429938242"/>
+  <circle cx="540.1342517993811" cy="245.8469010108825" r="2.348686697706247" fill="#FFFFFF" opacity="0.33253043726812204"/>
+  <circle cx="402.72754308033115" cy="77.84019975499304" r="1.825443459278378" fill="#FFFFFF" opacity="0.46044252335309754"/>
+  <circle cx="1106.792319688304" cy="28.017839536742795" r="1.6325319828661025" fill="#FFFFFF" opacity="0.23992848912902326"/>
+  <circle cx="632.4834973750902" cy="234.29442045339817" r="2.0588976932530163" fill="#FFFFFF" opacity="0.2412475940888733"/>
+  <circle cx="920.8747469673168" cy="194.62531614701487" r="1.915940535977669" fill="#FFFFFF" opacity="0.20858943874064872"/>
+  <circle cx="928.8074174819996" cy="155.2595927898217" r="2.321802210326461" fill="#FFFFFF" opacity="0.5933261840377395"/>
+  <circle cx="1172.6788662975744" cy="13.874462077967298" r="0.982217028227399" fill="#FFFFFF" opacity="0.7189601493203839"/>
+  <circle cx="1095.4735916703182" cy="137.57367575195758" r="0.7451495368666676" fill="#FFFFFF" opacity="0.2356281563808258"/>
+  <circle cx="492.9460271350867" cy="124.95633023148969" r="0.6298492460600995" fill="#FFFFFF" opacity="0.7851349727604446"/>
+  <circle cx="253.19346653554396" cy="374.17323035565636" r="0.726552431955283" fill="#FFFFFF" opacity="0.4248237328470616"/>
+  <circle cx="282.30763481070414" cy="367.5660880213155" r="0.9275827125990412" fill="#FFFFFF" opacity="0.5816968588652649"/>
+  <circle cx="302.71468835702035" cy="57.835537139186854" r="1.9637467551937582" fill="#FFFFFF" opacity="0.8155134538790219"/>
+  <circle cx="1069.8747550650623" cy="97.09091762252307" r="1.5645309261632954" fill="#FFFFFF" opacity="0.5354756225768039"/>
+  <circle cx="779.7404348853648" cy="156.2006953842303" r="2.2012572553266465" fill="#FFFFFF" opacity="0.6845676545908038"/>
+  <circle cx="458.50727136215824" cy="359.6994930718304" r="1.4255304202168064" fill="#FFFFFF" opacity="0.46367595349866186"/>
+  
+  <!-- Sun -->
+  <circle cx="100" cy="200" r="40" fill="url(#sunGradient)" filter="url(#glow)"/>
+  <text x="100" y="260" text-anchor="middle" fill="#FFD700" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Lumoria Sun</text>
+  
+  <!-- Orbital paths -->
+  <line x1="100" y1="200" x2="313.33333333333337" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="473.3333333333333" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="633.3333333333333" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="900" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  
+  <!-- Planets -->
+  <circle cx="313.33333333333337" cy="200" r="9.758" fill="url(#mercuriaGradient)" filter="url(#glow)"/>
+  <text x="313.33333333333337" y="224.758" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Mercuria</text>
+  <text x="313.33333333333337" y="239.758" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">Full</text>
+  <circle cx="473.3333333333333" cy="200" r="24.208" fill="url(#venusiaGradient)" opacity="0.7"/>
+  <text x="473.3333333333333" y="239.208" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Venusia</text>
+  <text x="473.3333333333333" y="254.208" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">Partial</text>
+  <circle cx="633.3333333333333" cy="200" r="25" fill="url(#earthiaGradient)" opacity="0.7"/>
+  <text x="633.3333333333333" y="240" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Earthia</text>
+  <text x="633.3333333333333" y="255" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">Partial</text>
+  <circle cx="900" cy="200" r="13.558" fill="url(#marsiaGradient)" opacity="0.3" filter="url(#shadow)"/>
+  <text x="900" y="228.558" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Marsia</text>
+  <text x="900" y="243.558" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">None (Multiple Shadows)</text>
+  <line x1="473.3333333333333" y1="200" x2="900" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="633.3333333333333" y1="200" x2="900" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Lumoria Celestial Alignment</text>
+  <text x="600" y="50" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="14">Light Intensity Analysis</text>
+  
+  <!-- Legend -->
+  <g transform="translate(20, 320)">
+    <text x="0" y="0" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Legend:</text>
+    <circle cx="10" cy="20" r="6" fill="#FFD700" filter="url(#glow)"/>
+    <text x="25" y="25" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Full Light</text>
+    <circle cx="10" cy="40" r="6" fill="#4F7942" opacity="0.7"/>
+    <text x="25" y="45" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Partial Light</text>
+    <circle cx="10" cy="60" r="6" fill="#8B0000" opacity="0.3"/>
+    <text x="25" y="65" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">No Light (Shadowed)</text>
+    <line x1="120" y1="40" x2="140" y2="40" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+    <text x="150" y="45" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Shadow Line</text>
+  </g>
+  
+</svg>

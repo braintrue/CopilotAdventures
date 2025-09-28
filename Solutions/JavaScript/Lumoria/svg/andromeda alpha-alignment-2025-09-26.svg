@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sunGradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF4500;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="mercuriaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#8C7853;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A5A5A;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="venusiaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#FFC649;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C42;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="earthiaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#6B93D6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4F7942;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E4057;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="marsiaGradient" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" style="stop-color:#CD5C5C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feMerge> 
+        <feMergeNode in="offsetblur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0B1426" />
+  
+  <!-- Stars background -->
+  <circle cx="1193.0655237958952" cy="199.83300054163794" r="2.217790211089428" fill="#FFFFFF" opacity="0.7522807198557253"/>
+  <circle cx="63.38187244052005" cy="47.89269633568898" r="0.8040619397371875" fill="#FFFFFF" opacity="0.5316627809500553"/>
+  <circle cx="1095.4304189321474" cy="236.501745283727" r="1.7641908817325818" fill="#FFFFFF" opacity="0.725538312878699"/>
+  <circle cx="464.62417853404503" cy="282.36005297444126" r="1.6747408527551402" fill="#FFFFFF" opacity="0.5604453391388775"/>
+  <circle cx="112.30029333194702" cy="296.1854862380637" r="0.8850893035446239" fill="#FFFFFF" opacity="0.5616715429263142"/>
+  <circle cx="1047.268383359823" cy="43.21545204060708" r="1.6461981148032492" fill="#FFFFFF" opacity="0.4989618147552548"/>
+  <circle cx="126.63056894613351" cy="17.30944211202763" r="1.3492990700963468" fill="#FFFFFF" opacity="0.783792196758964"/>
+  <circle cx="1151.4207086214535" cy="237.54443367201307" r="2.086957609764572" fill="#FFFFFF" opacity="0.7002016019869224"/>
+  <circle cx="990.4356080001526" cy="264.35846582333716" r="1.053370770701458" fill="#FFFFFF" opacity="0.29064473617662423"/>
+  <circle cx="757.6297729052853" cy="174.96594551123445" r="1.4804064511821196" fill="#FFFFFF" opacity="0.9052474927772465"/>
+  <circle cx="293.8972426872757" cy="291.71149240357835" r="1.3720640946384952" fill="#FFFFFF" opacity="0.41707797659712864"/>
+  <circle cx="774.3398039695296" cy="98.66294253360914" r="1.9471760123595612" fill="#FFFFFF" opacity="0.684619246815776"/>
+  <circle cx="1079.4590616871865" cy="354.73983852749626" r="2.24169155553667" fill="#FFFFFF" opacity="0.8839885618645298"/>
+  <circle cx="386.26804411877237" cy="84.26049899593488" r="0.7805720012534687" fill="#FFFFFF" opacity="0.6899757902344386"/>
+  <circle cx="595.5251813826719" cy="399.9229483672858" r="1.3820621819461976" fill="#FFFFFF" opacity="0.48171966865515903"/>
+  <circle cx="429.26150932265597" cy="59.11880217252525" r="2.2836615089703782" fill="#FFFFFF" opacity="0.8142685908962535"/>
+  <circle cx="551.5295825563348" cy="351.7798382533054" r="0.5104032958621891" fill="#FFFFFF" opacity="0.9926863781639497"/>
+  <circle cx="719.1319079628579" cy="184.9094902320262" r="1.1290215847477905" fill="#FFFFFF" opacity="0.6309377369269753"/>
+  <circle cx="827.03009753121" cy="171.53531690196866" r="1.5918465465339309" fill="#FFFFFF" opacity="0.8870185128660828"/>
+  <circle cx="908.6037496852196" cy="267.32271632301104" r="1.8351010681631768" fill="#FFFFFF" opacity="0.6535071912890946"/>
+  <circle cx="894.047430113657" cy="50.95696732859034" r="0.6988946267631064" fill="#FFFFFF" opacity="0.9716685112662302"/>
+  <circle cx="875.8912086050298" cy="194.5844741049694" r="1.068456305717076" fill="#FFFFFF" opacity="0.9659487490790228"/>
+  <circle cx="82.89866547855578" cy="54.2374026058753" r="1.6581529743538694" fill="#FFFFFF" opacity="0.3629466543626599"/>
+  <circle cx="917.5660213349136" cy="183.5144763643064" r="0.9466537385305518" fill="#FFFFFF" opacity="0.32550214694631985"/>
+  <circle cx="832.5830880253712" cy="261.1074564371535" r="2.235586353236638" fill="#FFFFFF" opacity="0.27353395772472366"/>
+  <circle cx="592.9890225433917" cy="2.3863510230170526" r="2.135721845874448" fill="#FFFFFF" opacity="0.6015579524077534"/>
+  <circle cx="330.3696286041546" cy="388.61418938311624" r="2.048752420530064" fill="#FFFFFF" opacity="0.6501312905949284"/>
+  <circle cx="971.0636040859836" cy="313.9573379981325" r="1.729566241285951" fill="#FFFFFF" opacity="0.6498802998957404"/>
+  <circle cx="205.13223037406982" cy="298.42181704732945" r="2.2205305779554063" fill="#FFFFFF" opacity="0.7619843308155756"/>
+  <circle cx="580.991517818547" cy="287.60416213578816" r="1.1824625923563334" fill="#FFFFFF" opacity="0.737904383024812"/>
+  <circle cx="758.977654522447" cy="111.57556970420161" r="1.6925858241887046" fill="#FFFFFF" opacity="0.6721106800673466"/>
+  <circle cx="212.74539987060575" cy="15.54945474649827" r="2.038474530438331" fill="#FFFFFF" opacity="0.4159870654387023"/>
+  <circle cx="310.4023683349161" cy="204.07682394492105" r="1.5115278380479706" fill="#FFFFFF" opacity="0.2772343737382869"/>
+  <circle cx="604.7833581246241" cy="144.67090464066655" r="1.2116900743389238" fill="#FFFFFF" opacity="0.5173741705730297"/>
+  <circle cx="390.8781666064805" cy="120.71282783140171" r="2.1582321621327014" fill="#FFFFFF" opacity="0.2504416976662853"/>
+  <circle cx="342.7885368097377" cy="224.26776113922867" r="0.6770779639584017" fill="#FFFFFF" opacity="0.6519837414856087"/>
+  <circle cx="1150.8538414970624" cy="153.68385454264146" r="1.7836308959746456" fill="#FFFFFF" opacity="0.9686017229777302"/>
+  <circle cx="906.3435410546596" cy="228.04177503270583" r="0.9687770424967361" fill="#FFFFFF" opacity="0.8681140393849067"/>
+  <circle cx="509.94150918614827" cy="200.27576557990602" r="1.8127604172779517" fill="#FFFFFF" opacity="0.9574077466435793"/>
+  <circle cx="67.5210469562316" cy="97.06152717674996" r="1.7648650571864297" fill="#FFFFFF" opacity="0.665930847405749"/>
+  <circle cx="418.54039601152823" cy="360.04911255947894" r="0.8483923857559148" fill="#FFFFFF" opacity="0.24513719250632865"/>
+  <circle cx="101.75774806915871" cy="136.6470956598067" r="1.3667104655811761" fill="#FFFFFF" opacity="0.5194258092718691"/>
+  <circle cx="686.58594195671" cy="170.40732377213521" r="2.1640768446639234" fill="#FFFFFF" opacity="0.7382487372305802"/>
+  <circle cx="118.29534173354573" cy="364.4969635225687" r="1.8539386663689292" fill="#FFFFFF" opacity="0.23469279373653473"/>
+  <circle cx="280.4505751551476" cy="189.45595204000182" r="1.3136539856852871" fill="#FFFFFF" opacity="0.23810034890848508"/>
+  <circle cx="142.4813001103919" cy="377.891535228969" r="0.7119750870527812" fill="#FFFFFF" opacity="0.7450035350841395"/>
+  <circle cx="271.1136172907482" cy="135.97544444976322" r="2.0653778673664456" fill="#FFFFFF" opacity="0.28365063876351737"/>
+  <circle cx="30.068325776681704" cy="204.25603950264355" r="0.8885068198787236" fill="#FFFFFF" opacity="0.5916942411394658"/>
+  <circle cx="108.487750177507" cy="273.01182292723905" r="1.828591603384547" fill="#FFFFFF" opacity="0.8033534786310956"/>
+  <circle cx="730.4915343193551" cy="310.64885185677457" r="1.8150753875467487" fill="#FFFFFF" opacity="0.2859690148477359"/>
+  
+  <!-- Sun -->
+  <circle cx="100" cy="200" r="40" fill="url(#sunGradient)" filter="url(#glow)"/>
+  <text x="100" y="260" text-anchor="middle" fill="#FFD700" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Andromeda Alpha Sun</text>
+  
+  <!-- Orbital paths -->
+  <line x1="100" y1="200" x2="164" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="260" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="356" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="484" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="676" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <line x1="100" y1="200" x2="900" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  
+  <!-- Planets -->
+  <circle cx="164" cy="200" r="8" fill="url(#proximaGradient)" filter="url(#glow)"/>
+  <text x="164" y="223" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Proxima</text>
+  <text x="164" y="238" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">Full</text>
+  <circle cx="260" cy="200" r="17.8" fill="url(#centauriGradient)" opacity="0.7"/>
+  <text x="260" y="232.8" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Centauri</text>
+  <text x="260" y="247.8" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">Partial</text>
+  <circle cx="356" cy="200" r="25" fill="url(#vegaGradient)" opacity="0.7"/>
+  <text x="356" y="240" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Vega</text>
+  <text x="356" y="255" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">Partial</text>
+  <circle cx="484" cy="200" r="22.4" fill="url(#altairGradient)" opacity="0.3" filter="url(#shadow)"/>
+  <text x="484" y="237.4" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Altair</text>
+  <text x="484" y="252.4" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">None</text>
+  <circle cx="676" cy="200" r="12.8" fill="url(#rigelGradient)" opacity="0.3" filter="url(#shadow)"/>
+  <text x="676" y="227.8" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Rigel</text>
+  <text x="676" y="242.8" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">None (Multiple Shadows)</text>
+  <circle cx="900" cy="200" r="8.2" fill="url(#betelgeuseGradient)" opacity="0.3" filter="url(#shadow)"/>
+  <text x="900" y="223.2" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Betelgeuse</text>
+  <text x="900" y="238.2" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="10">None (Multiple Shadows)</text>
+  <line x1="356" y1="200" x2="484" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="260" y1="200" x2="676" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="356" y1="200" x2="676" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="484" y1="200" x2="676" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="260" y1="200" x2="900" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="356" y1="200" x2="900" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="484" y1="200" x2="900" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  <line x1="676" y1="200" x2="900" y2="200" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Andromeda Alpha Celestial Alignment</text>
+  <text x="600" y="50" text-anchor="middle" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="14">Light Intensity Analysis</text>
+  
+  <!-- Legend -->
+  <g transform="translate(20, 320)">
+    <text x="0" y="0" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Legend:</text>
+    <circle cx="10" cy="20" r="6" fill="#FFD700" filter="url(#glow)"/>
+    <text x="25" y="25" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Full Light</text>
+    <circle cx="10" cy="40" r="6" fill="#4F7942" opacity="0.7"/>
+    <text x="25" y="45" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Partial Light</text>
+    <circle cx="10" cy="60" r="6" fill="#8B0000" opacity="0.3"/>
+    <text x="25" y="65" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">No Light (Shadowed)</text>
+    <line x1="120" y1="40" x2="140" y2="40" stroke="#FF0000" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+    <text x="150" y="45" fill="#CCCCCC" font-family="Arial, sans-serif" font-size="12">Shadow Line</text>
+  </g>
+  
+</svg>
